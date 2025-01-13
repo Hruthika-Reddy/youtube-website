@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise10
+    </title>
+    <style>
+      p{
+        font-family:Arial;
+        margin-top:0;
+        margin-bottom:0;
+      }
+      .profile-details{
+        margin-top:20px;
+        display:block;
+      }
+      .profile-page{
+        display:inline-block;
+        margin-right:8px;
+        vertical-align:middle;
+      }
+      .profile{
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        border-radius:50px;
+        margin-left:10px;
+        
+      }
+      .info{
+        display:inline-block;
+        width:150px;
+        vertical-align:middle;
+      }
+      .cat-name{
+        font-weight:bold;
+        font-size:16px;
+        margin-bottom:3px;
+      }
+      .cat,.about{
+        color:rgb(96,96,96);
+      }
+      .cat{
+        margin-bottom:3px;
+        font-size:16px;
+      }
+      .about{
+        font-size:14px;
+      }
+      .follow-button{
+        display:inline-block;
+        vertical-align:middle;
+      }
+      .follow{
+        background-color:dodgerblue;
+        color:white;
+        font-weight:bold;
+        border:none;
+        padding:5px 10px;
+        border-radius:5px;
+        cursor:pointer;
+      }
+      .oliver,.mimi,.rex{
+        width:150px;
+        box-shadow:0 0 5px rgba(0,0,0,0.3);
+        margin-bottom:30px;
+        display:inline-block;
+        margin-right:8px;
+      }
+      .cat-oliver{
+        width:150px;
+        height:150px;
+        object-fit:cover;
+        margin-bottom:5px;
+      }
+      .cat-name{
+        font-weight:bold;
+        margin-top:0;
+        margin-left:1px;
+        margin-bottom:2px;
+        font-size:15px;
+      }
+      .mutual-profile{
+        width:20px;
+        height:20px;
+        vertical-align:middle;
+        object-fit:cover;
+        border-radius:20px;
+      }
+      .mutual{
+        color:rgb(116, 115, 115);
+        margin-left:5px;
+        margin-bottom:6px;
+        margin-top:0;
+        font-size:13px;
+      }
+      .add-friend{
+        background-color:blue;
+        padding:5px 5px;
+        margin-left:5px;
+        margin-bottom:8px;
+        color:white;
+        border:none;
+        border-radius:3px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="profile-details">
+      <div class="profile-page">
+        <img class="profile" src="cat.jpg">
+      </div>
+      <div class="info">
+        <div class="cat-name">
+          <p>oliver</p>
+        </div>
+        <div class="cat">
+          <p>the cat</p>
+        </div>
+        <div class="about">
+          <p>Popular</p>
+        </div>
+      </div>
+      <div class="follow-button">
+        <button class="follow">Follow</button>
+      </div>
+
+
+    </div>
+    <div class="profile-details">
+      <div class="profile-page">
+        <img class="profile" src="cat.jpg">
+      </div>
+      <div class="info">
+        <div class="cat-name">
+          <p>oliver</p>
+        </div>
+        <div class="cat">
+          <p>the cat</p>
+        </div>
+        <div class="about">
+          <p>Popular</p>
+        </div>
+      </div>
+      <div class="follow-button">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+
+
+    <div class="profile-details">
+      <div class="profile-page">
+        <img class="profile" src="dog.jpeg">
+      </div>
+      <div class="info">
+        <div class="cat-name">
+          <p>Mimi</p>
+        </div>
+        <div class="cat">
+          <p>Sleepy Cat</p>
+        </div>
+        <div class="about">
+          <p>Popular</p>
+        </div>
+      </div>
+      <div class="follow-button">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+
+    
+    <div class="profile-details">
+      <div class="profile-page">
+        <img class="profile" src="cat2.jpg">
+      </div>
+      <div class="info">
+        <div class="cat-name">
+          <p>Rex</p>
+        </div>
+        <div class="cat">
+          <p>Innocent cat</p>
+        </div>
+        <div class="about">
+          <p>Popular</p>
+        </div>
+      </div>
+      <div class="follow-button">
+        <button class="follow">Follow</button>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="oliver">
+      <div><img class="cat-oliver" src="cat.jpg"></div>
+      <div><p class="cat-name">Oliver</p></div> 
+      <div>
+      <p class="mutual">
+      <img class="mutual-profile" src="dog.jpeg">
+      2 mutual friends</p>
+      </div>
+      <div>
+      <button class="add-friend">Add Friend</button>
+    </div>
+    </div>
+
+
+    <div class="mimi">
+      <img class="cat-oliver" src="dog.jpeg">
+      <p class="cat-name">Mimi</p>
+      <p class="mutual">
+        <img class="mutual-profile" src="dog.jpeg">
+        3 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+
+
+    <div class="rex">
+      <img class="cat-oliver" src="cat2.jpg">
+      <p class="cat-name">Rex</p>
+      <p class="mutual">
+        <img class="mutual-profile" src="dog.jpeg">
+        4 mutual friends</p>
+      <button class="add-friend">Add Friend</button>
+    </div>
+  </body>
+</html>

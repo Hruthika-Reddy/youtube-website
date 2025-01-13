@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Exercise12
+    </title>
+    <style>
+      body{
+        padding-bottom:1000px;
+      }
+      p{
+        margin-top:0;
+        margin-bottom:0;
+      }
+      div,p{
+        font-family:Arial;
+      }
+      .container{
+        border:rgb(200,200,200) solid 1px;
+        width:300px;
+        border-radius:5px;
+        margin-bottom:30px;
+      }
+      .flexbox{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:6px 12px;
+      }
+      .notifications{
+        background-color: darkblue;
+        color:white;
+        padding:3px 10px;
+        font-weight:bold;
+        border-radius:18px;
+        font-size:14px;
+      }
+      .row{
+        display:flex;
+        flex-direction:row;
+        margin-bottom:20px;
+        align-items:center;
+      }
+      .profile-picture{
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        border-radius: 50px;
+        margin-right:10px;
+      }
+      .info{
+        width:200px;
+      }
+      .name{
+        font-weight:bold;
+        margin-bottom:4px;
+        font-size:15px;
+      }
+      .handle{
+        color:rgb(100,100,100);
+        margin-bottom:3px;
+        font-size:15px;
+      }
+      .category{
+        color:rgb(100,100,100);
+        margin-top:0;
+        font-size:13px;
+      }
+      .follow-button{
+        background-color: blue;
+        color:white;
+        font-weight:bold;
+        font-size:15px;
+        border:none;
+        padding:5px 10px;
+        border-radius:5px;
+      }
+      .header{
+        background-color:purple;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        padding:10px 4px 10px 10px;
+      }
+      .left-section{
+        color:white;
+        font-weight:bold;
+        font-size:13px;
+      }
+      .text{
+        border:none;
+        width:350px;
+        padding:8px 15px;
+        border-radius:20px;
+        font-size:11px;
+      }
+      .download{
+        background-color: purple;
+        color:white;
+        font-weight:bold;
+        padding:8px 12px;
+        border:white solid 2px;
+        border-radius:3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display:flex;
+    flex-direction: row;
+    margin-top:30px;">
+      <div style="background-color: lightblue;
+      width:200px;">200px</div>
+      <div style="background-color: lightpink;
+      width:75px;">75px</div>
+    </div>
+
+    <div style="display:flex;
+    flex-direction: row;
+    margin-top:30px;">
+      <div style="background-color: lightblue;
+      width:50px;">item1</div>
+      <div style="background-color: lightpink;
+      flex:1;">item2</div>
+      <div style="background-color: lightblue;
+      width:75px;">item3</div>
+    </div>
+
+    <div style="display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top:30px;">
+      <div style="background-color: lightpink;
+      ">item1</div>
+      <div style="background-color: lightpink;
+      ">item2</div>
+      <div style="background-color: lightpink;
+      ">item3</div>
+      <div style="background-color: lightpink;
+      ">item4</div>
+    </div>
+
+
+    <div style="display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top:30px;
+    height:50px;
+    border:gray solid 1px;
+    align-items:center;">
+      <div style="background-color: lightpink;
+      ">item1</div>
+      <div style="background-color: lightpink;
+      ">item2</div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+      <div class="flexbox">
+        <div>Home</div>
+        <div class="notifications">14</div>
+      </div>
+      <div>
+      <div class="flexbox">
+        <div>Notifications</div>
+        <div class="notifications">3</div>
+      </div>
+      <div class="flexbox">
+        <div>Messages</div>
+        <div class="notifications">5</div>
+      </div>
+    </div>
+    </div>
+   
+     <div class="row">
+        <img class="profile-picture" src="cat.jpg">
+        <div class="info">
+          <p class="name">oliver</p>
+          <p class="handle">the cat</p>
+          <p class="category">Popular</p>
+        </div>
+          <button class="follow-button">Follow</button>
+    </div>
+    <div class="row">
+      <img class="profile-picture" src="cat2.jpg">
+      <div class="info">
+        <p class="name">Mimi</p>
+        <p class="handle">Sleepy Cat</p>
+        <p class="category">Popular</p>
+      </div>
+        <button class="follow-button">Follow</button>
+  </div>
+  <div class="row">
+    <img class="profile-picture" src="dog.jpeg">
+    <div class="info">
+      <p class="name">Rex</p>
+      <p class="handle">Happy Bulldog</p>
+      <p class="category">Popular</p>
+    </div>
+      <button class="follow-button">Follow</button>
+</div>
+<br>
+<br>
+<div class="header">
+  <div class="left-section">
+    Home
+  </div>
+  <div class="middle-section">
+    <input class="text" type="text" placeholder="Search">
+  </div>
+  <div class="right-section">
+    <button class="download">Download</button>
+  </div>
+
+</div>
+  </body>
+</html>

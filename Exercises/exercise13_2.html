@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>exercise 13</title>
+    <style>
+      p{
+        font-family:Arial,sans-serif;
+        margin-bottom:0;
+        margin-top:0;
+      }
+      .tweet-box{
+        display:flex;
+        flex-direction:row;
+        width:400px;
+      }
+      .profile-picture{
+        width:50px;
+        height:50px;
+        border-radius:25px;
+        object-fit:cover;
+      }
+      .tweet{
+        margin-left:10px;
+        line-height:1.5em;
+      }
+      .youtube{
+        margin-top:20px;
+        border:rgb(155, 155, 155) solid 1px;
+        border-radius:15px;
+        height:100px;
+        display:flex;
+        flex-direction: row;
+      }
+      .empty{
+        width:200px;
+        height:100px;
+        background-color:rgb(155,155,155);
+        border-top-left-radius:15px;
+        border-bottom-left-radius: 15px;;
+      }
+      .web{
+        padding:15px 30px 40px 15px ;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet-box">
+      <div class="profile-picture-column">
+          <img class="profile-picture" src="cat.jpg">
+        </div>
+        <div class="tweet">
+          <div>
+            <p><b>supersimple.dev</b> @SuperSimpleDev</p>
+            <p>What is backend web development? A complete overview. New video is up!</p>
+          </div>
+          <div class="youtube">
+            <div class="empty"></div>
+            <div class="web" >
+              <p>youtube.com</p>
+              <p><b>Backend web development-a complete overview(2021)</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

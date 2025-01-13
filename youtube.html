@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="intro-to-html/styles/general.css">
+    <link rel="stylesheet" href="intro-to-html/styles/header.css">
+    <link rel="stylesheet" href="intro-to-html/styles/video.css">
+    <link rel="stylesheet" href="intro-to-html/styles/sidebar.css">
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+       <div class="yotube-apps-icon-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">YouTube apps</div>
+       </div>
+       
+       <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="tooltip">Notifications</div>
+        <div class="notifications-count">3</div>
+       </div>
+       
+       <img class="current-user-picture" src="channel/my-channel.jpg">
+      </div>
+    </header>
+    
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+    <section class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/r_ftWcWcfqQ" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+        </a>
+        <div class="video-time">
+          1:46
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="channel/channel-1.jpg">
+        </div>
+        <div class="video-info"> 
+          <p class="video-title">Bujji Thalli Video Song | Thandel | Naga Chaitanya,Sai Pallavi | Javed Ali | Devi Sri Prasad </p>
+          <p class="video-author">Aditya Music<span></span></p>
+          <p class="video-stats">851k views &#183; 20 hours ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/OW0uuGfpvUE" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+        </a>
+        <div class="video-time">
+          16:02
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+         
+            <img class="profile-picture" src="channel/channel-2.jpg" >
+          
+        </div>
+        
+        <div class="video-info"> 
+          <p class="video-title">Think Smart, Speak Fluent | Learn English with Podcast Conversation | English Podcast</p>
+          <p class="video-author">Easy English Talk</p>
+          <p class="video-stats">61K views &#183; 7 days ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/-9vXF3qbdFE" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-3.webp">
+        </a>
+        <div class="video-time">
+          3:04
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-3.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">Arctic Monkeys-I Wanna Be Yours (Lyrics)</p>
+          <p class="video-author">Creative Chaos</p>
+          <p class="video-stats">78K views &#183; 6 days ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/RtLsYHMWSVk" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-4.webp">
+        </a>
+        <div class="video-time">
+          3:35
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-4.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">(when I fly towars you)_Blue - Yung Kai</p>
+          <p class="video-author">Strory Lover</p>
+          <p class="video-stats">85K views &#183; 2 months ago</p></div>
+        </div>
+    </div>
+   
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/sYgokrOhmIo" target="_blank">
+         <img class="thumbnail" src="thumbnail/thumbnail-5.webp">
+        </a>
+        <div class="video-time">
+          23:04
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-5.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">7/G Brindhavan Colony Movie || Suman Setty Back to Back Comedy Scenes </p>
+          <p class="video-author">Shalimar Telugu & Hindi MOvies</p>
+          <p class="video-stats">3.7M views &#183; 10 years ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/2eknNVZ9nYM" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-6.webp">
+        </a>
+        <div class="video-time">
+          2:47
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-6.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">Prateek kuhad-Co2 (Lyrics) </p>
+          <p class="video-author">Myplaylist</p>
+          <p class="video-stats">1.1M views &#183; 2 years ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/EwZM8Th2nPM" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-7.webp">
+        </a>
+        <div class="video-time">
+          3:42
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-7.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">Sahiba(Lyric Video) Jasleen Royal |Vijay DEverakonda Radhikka Madan|Stebini|Priya|Aditya|Sudhanshu</p>
+          <p class="video-author">Jasleen Royal</p>
+          <p class="video-stats">94K views &#183; 2 days ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/XEkKWu2Dy5w" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-8.webp">
+        </a>
+        <div class="video-time">
+          7:34
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-8.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">Everything Happens for a Reason:A Zen Story,Proving Destiny is Real </p>
+          <p class="video-author">ZenPath</p>
+          <p class="video-stats">77K views &#183; 2 months ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/6mRbDEtDoyA" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-9.webp">
+        </a>
+        <div class="video-time">
+          17:26
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-9.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">The Untold Truth About Money: How to Build Wealth From Nothing. </p>
+          <p class="video-author">James Jani</p>
+          <p class="video-stats">17M views &#183; 4 years ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/ZxtJQ3X2kSk" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-10.webp">
+        </a>
+        <div class="video-time">
+          15:00
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-10.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">3 Acrylic Paintings for Beginners/3 Mini canvas Paintings </p>
+          <p class="video-author">Nana Art 1</p>
+          <p class="video-stats">1M views &#183; 1 year ago</p></div>
+        </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/pjQniCYk6qI" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-11.webp">
+        </a>
+        <div class="video-time">
+          3:23
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-11.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">Mastering Operators in C| CODE WITH ME</p>
+          <p class="video-author">Code with me</p>
+          <p class="video-stats">51 views &#183; 3 days ago</p></div>
+        </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <a href="https://youtu.be/g85WsxE1gAU" target="_blank">
+          <img class="thumbnail" src="thumbnail/thumbnail-12.webp">
+        </a>
+        <div class="video-time">
+          9:29
+        </div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture"><img class="profile-picture" src="channel/channel-12.jpg"></div>
+        <div class="video-info"> 
+          <p class="video-title">How Long it Takes To Change Your Life?|Nwal Hadaki|TEDxSafirSchool </p>
+          <p class="video-author">TEDx Talks</p>
+          <p class="video-stats">7.5M views &#183; 2 years ago</p></div>
+        </div>
+    </div>
+  </section>
+  </main>
+  </body>
+</html>
+

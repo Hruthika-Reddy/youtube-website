@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 15</title>
+    <style>
+      /*
+      .close{
+        position:relative
+      }
+      .close-button{
+        background-color: black;
+        color:white;
+        position: absolute;
+        top:-10px;
+        left:-10px;
+        font-size:20px;
+        border-radius:50px;
+        border:none;
+        padding:5px 10px 5px 10px;
+      }
+
+      .time-stamp{
+        background-color: black;
+        color:white;
+        font-weight:500;
+        position:absolute;
+        bottom:5px;
+        right:5px;
+        padding:2px 4px 2px 4\=px;
+        border-radius:2px;
+      }
+
+      .container{
+        position:fixed;
+        bottom:10px;
+        right:10px;
+        width:320px;
+        height:180px;
+        background-color: darkgray;
+      }
+      */
+      body{
+        font-family:Arial;
+      }
+      .shirt-page{
+        position:relative;
+        display:inline-block;
+      }
+      .shirt-container{
+        object-fit:cover;
+      }
+      .offer{
+        position:absolute;
+        top:10px;
+        right:0;
+        background-color:black;
+        color:white;
+        font-size:14px;
+        padding:5px 10px 5px 10px;
+        font-weight:700;
+      }
+      .overlay{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cart-button{
+        border:black solid 1px;
+        padding:5px 10px 5px 10px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!--<div class="container">
+      <div class="close">
+        <div><button class="close-button">X</button></div>
+      </div>
+      <div class="time-stamp">0:29</div>
+    </div>-->
+    
+      <div class="shirt-page">
+        <img class="shirt-container" src="shirt.jpeg">
+        <div class="offer">20% OFF</div>
+        <div class="overlay">
+          <button class="cart-button">Add to Cart</button>
+        </div>
+    </div>
+   
+   
+  </body>
+</html>
