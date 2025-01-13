@@ -26,3 +26,17 @@
 .sidebar-link div{
   font-size:10px;
 }
+@media (max-width: 480px) {
+  .sidebar {
+     width: 50px; 
+     padding-top: 0;
+  }
+
+  .sidebar-link {
+     height: 70px;
+  }
+
+  .sidebar-link img {
+     height: 18px; 
+  }
+}
