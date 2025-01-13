@@ -141,3 +141,35 @@
   height:32px;
   border-radius:16px;
 }
+
+@media (max-width: 480px) {
+   .header {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 10px;
+   }
+   .middle-section {
+      margin-left: 0;
+      margin-right: 0;
+   }
+   .search-bar {
+      width: 100%;
+   }
+   .left-section, .right-section {
+      justify-content: center;
+      width: 100%;
+   }
+   .hamburger-menu {
+      margin-left: 0;
+      margin-right: 10px;
+   }
+   .youtube-logo {
+      height: 18px;
+   }
+   .search-button, .voice-search-button {
+      width: 50px;
+   }
+   .current-user-picture {
+      height: 28px;
+   }
+}
