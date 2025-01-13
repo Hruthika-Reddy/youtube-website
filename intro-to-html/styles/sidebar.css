@@ -28,8 +28,8 @@
 }
 @media (max-width: 480px) {
   .sidebar {
-     width: 50px; 
-     padding-top: 0;
+     width: 30px; 
+    
   }
 
   .sidebar-link {
